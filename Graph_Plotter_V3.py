@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ############################################################################
-'''Customize graph specifications at the bottom of the program (line 30)'''#
+'''Customize graph specifications at the bottom of the program (line 51)'''#
 ############################################################################
 
 # Uses Pandas library to convert raw data excel file into a data frame
@@ -50,7 +50,7 @@ def makeGraph(filePath: str, i_var: str, d_var: list, axis_label: dict, title: s
 
 # CREATE GRAPH SPECIFICATIONS BELOW #############################################################################################
 
-file_path = "C:\\Users\\chdar\\OneDrive - University of Toronto\\Programming\\Python\\MIE210 Lab\\Lab 2\\Lab 2 - Part 2a Set 1.xlsx"
+file_path = "[INSERT FILE EXCEL FILE PATH HERE]"
 
 independent_variable = "Time(s)"
 
